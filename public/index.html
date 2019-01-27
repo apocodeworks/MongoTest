@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  
+  <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <title>Scraping With Mongoose</title>
+  <style>
+    body {
+      background-color: #F2F6D0
+    }
+
+    #wrapper {
+      text-align: center;
+    }
+
+
+    #articles {
+      left: 25%;
+      overflow: auto;
+      background-color: aliceblue;
+      border-color: black;
+      border-style: solid;
+    }
+
+    textarea,
+    input {
+      width: 100%;
+      background-color: aliceblue;
+    }
+
+    input {
+      height: 36px;
+      font-size: 24px;
+    }
+
+    textarea {
+      height: 200px;
+      font-size: 18px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="wrapper">
+    <h1>Article Commenter</h1>
+
+
+    <div id="container">
+      <div class="row">
+        <div class="col-md-3">
+
+        </div>
+        <div class="col-md-6">
+          <div id="articles"></div>
+        </div>
+        <div class="col-md-3"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-3">
+
+        </div>
+        <div class="col-md-6">
+           <div id="notes"></div>
+        </div>
+        <div class="col-md-3">
+          
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div id="comments">test</div>
+        </div>
+      </div>
+    </div>
+    <div id="container">
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="app.js"></script>
+
+</body>
+
+</html>
